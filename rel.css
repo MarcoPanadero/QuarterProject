@@ -1,0 +1,48 @@
+body {
+            display: flex;
+            min-height: 100vh;
+			background-color: black;
+            margin: 0;
+        }
+
+
+.column {
+			border-radius: 10px;
+			text-align: center;
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+			background-color: darkgray;
+			transition: background-color 0.3s;
+			font-size: 30px;
+        }
+
+.column:hover {
+            background-color: lightgray;
+        }
+		
+.column img {
+            max-width: 200%;
+            height: auto;
+            max-height: 200px;
+			border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+.return-home {
+            background-color: darkgray;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+			max-height: 70px;
+			max-width: 150px;
+            margin: 10px;
+			transition: background-color 0.3s;
+			border-radius: 10px;
+        }		
+		
+.return-home:hover {
+			background-color: lightgray;		
+		}
